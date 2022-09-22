@@ -17,11 +17,12 @@ else:
     aleatorio = 'tijera'
 
 #Comparar para determinar quien gana
+
 print(f"El usuario eligió {user} y la máquina eligió {machine}")
 if machine=='piedra' and 'papel':
     print("Gana el usuario")
 elif machine=='papel'and 'tijera':
-    print("Gana e usuario")
+    print("Gana el usuario")
 elif machine=='tijera' and 'piedra':
     print("Gana el usuario")
     
